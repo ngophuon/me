@@ -1,0 +1,84 @@
+h1{
+	color:gold;
+}
+
+body,html{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(./img/nen.gif);
+	background-size: cover;
+}
+img{
+	margin-top:10px;
+	width: 100px;
+	height: 100px;
+	margin-left: 10px;
+}
+header{
+	margin-top: 1em;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+header > img{
+	width: 9em;
+	height: 9em;
+	border-radius: 100%;
+	border: 2px solid #fff;
+	/* hiệu ứng viền ánh sáng pro */
+	box-shadow: greenyellow 0px 1px 15px 7px;
+}
+header > h1{
+	display: inline-block;
+	font-size: 1.5em;
+	font-weight: bold;
+	border-radius: 1em;
+	background-color: mediumslateblue;
+	color: palegoldenrod;
+	padding: 0.3em 0.6em;
+	border: 2px solid #fffa;
+}
+ul{
+	box-sizing: border-box;
+	list-style: none;
+	margin :0 autu ;
+	padding: 2em;
+	
+}
+ul > li {
+	background-color: #fffa;
+	border-radius: 1em;
+	padding: 0.5;
+	margin: 1em 0;
+	align-items: center;
+	display: flex;
+	display: inline-block;
+}
+ul > li > a{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	gap: 0em;
+}
+a{
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	align-items: center;
+	padding: 10px;
+}
+ul{
+	padding: auto;
+	text-align: center;
+}
+img{
+	
+}
+p{
+	text-align: center;
+	color: aliceblue;
+}
